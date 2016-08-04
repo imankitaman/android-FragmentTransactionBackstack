@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ankitaman.com.fragmentbackstackdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/xbtnAddSec"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="addSecondFrag"
+            android:text="Add Second" />
+
+        <Button
+            android:id="@+id/xbtnAddThird"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="addThirdFrag"
+            android:text="Add Third" />
+
+        <Button
+            android:id="@+id/xbtnGotoFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="gotoFirstFrag"
+            android:text="GOTO First" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
